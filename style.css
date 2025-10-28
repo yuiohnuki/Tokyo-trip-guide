@@ -22,3 +22,17 @@ li{
 p{
     color:rgb(113, 142, 142);
 }
+
+.container {
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 20px;     
+}
+
+li::before {
+    content: "🌸"; 
+    color: #4C52DE; 
+    font-size: 0.9em;
+    margin-right: 10px;
+    display: inline-block;
+}
