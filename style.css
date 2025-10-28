@@ -1,9 +1,24 @@
+body{
+    background-color: beige;
+}
+
 h1{
-    color:rgb(198, 246, 246);
+font-family: 'Kalam', cursive;    color:rgb(105, 200, 241);
     margin-top: 20px;
+    font-family: 'Cherry Bomb One';
+}
+
+h2{
+    color:rgb(175, 235, 242);
+    border-color: azure;
+    border-radius: 2px;
 }
 
 li{
     font-size: larger;
-    color:rgb(127, 138, 135);
+    color:rgb(1, 0, 2);
+}
+
+p{
+    color:rgb(113, 142, 142);
 }
