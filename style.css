@@ -1,7 +1,9 @@
 h1{
     color:rgb(198, 246, 246);
+    margin-top: 20px;
 }
 
 li{
     font-size: larger;
+    color:rgb(127, 138, 135);
 }
