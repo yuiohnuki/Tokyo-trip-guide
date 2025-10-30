@@ -62,3 +62,39 @@ li::before {
     margin-right: 10px;
     display: inline-block;
 }
+
+/* navbar */
+
+#bars {
+     list-style-type: none;
+     background-color: #FFC8DD;
+     overflow: hidden;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover{
+   color: #A2D2FF;
+}
+
+a {
+   color: #CDB4DB;
+}
+
+main li {
+  display: list-item;
+  padding: 0.2em 0;
+}
+
+li {
+  display: inline-block;
+}
+
+main li {
+  display: list-item;
+  padding: 0.2em 0;
+}
