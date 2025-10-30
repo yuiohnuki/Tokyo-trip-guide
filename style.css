@@ -2,8 +2,19 @@ body{
     background-color: beige;
 }
 
+.container {
+  width: 90%;
+  max-width: 850px;
+  margin: 30px auto;
+  background: #fff4fc;
+  border-radius: 28px;
+  padding: 25px;
+  border: 2px solid #f5cce0;
+}
+
 h1{
-font-family: 'Kalam', cursive;    color:rgb(105, 200, 241);
+    text-align: center;
+    font-family: 'Kalam', cursive;    color:rgb(105, 200, 241);
     margin-top: 20px;
     font-family: 'Cherry Bomb One';
 }
@@ -12,6 +23,7 @@ h2{
     color:rgb(195, 145, 231);
     border-color: azure;
     border-radius: 2px;
+    text-align: center;
 }
 
 .slideshow-container{
@@ -67,7 +79,7 @@ li::before {
 
 #bars {
      list-style-type: none;
-     background-color: #FFC8DD;
+     background-color: #ffa7c7;
      overflow: hidden;
 }
 
@@ -82,7 +94,7 @@ li a:hover{
 }
 
 a {
-   color: #CDB4DB;
+   color: #eef1c1;
 }
 
 main li {
@@ -97,4 +109,14 @@ li {
 main li {
   display: list-item;
   padding: 0.2em 0;
+}
+
+.mini-container{
+    width: 90%;
+  max-width: 850px;
+  margin: 30px auto;
+  background: #f0d7fb;
+  padding: 25px;
+border-radius: 28px;
+  border: 2px solid #f0d7fb;
 }
